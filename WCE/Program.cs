@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using MySql.Data.MySqlClient; // For MariaDB/MySQL Connection
+using MySql.Data.MySqlClient;
 
 namespace WCEConsoleApp
 {
     class Program
     {
         private static string connectionString = "Server=127.0.0.1;Database=wce;Uid=root;Pwd=;";
-        private static bool isLoggedIn = false; // Tracks login state
-        private static string currentUserFullName = ""; // Stores the logged-in user's full name
-        private static int currentUserId = -1; // Stores the logged-in user's ID
+        private static bool isLoggedIn = false;
+        private static string currentUserFullName = "";
+        private static int currentUserId = -1;
 
         static void Main(string[] args)
         {
