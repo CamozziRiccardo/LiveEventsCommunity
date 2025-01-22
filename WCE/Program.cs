@@ -308,7 +308,7 @@ namespace WCEConsoleApp
             catch (Exception ex)
             {
                 Console.WriteLine($"Failed to load provinces: {ex.Message}");
-                return -1; // Default to an invalid ID
+                return -1;
             }
         }
     }
